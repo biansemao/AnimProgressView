@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimProgressView">
+        <attr name="circleColor" format="color" />
+        <attr name="circleNum" format="integer" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="lightIndex" format="integer" />
+        <attr name="animTime" format="integer" />
+        <attr name="isAutoAnim" format="boolean" />
+        <attr name="isClockwise" format="boolean" />
+        <attr name="animMode" format="enum">
+            <enum name="RotateMode" value="1" />
+            <enum name="DotMode" value="2" />
+            <enum name="TailMode" value="3" />
+            <enum name="GarbMode" value="4" />
+            <enum name="ZoomMode" value="5" />
+            <enum name="ChangeMode" value="6" />
+        </attr>
+    </declare-styleable>
+</resources>

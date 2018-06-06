@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="2.5dp"
+            app:lightIndex="1"
+            app:animMode="RotateMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_red_light"
+            app:circleNum="8"
+            app:circleRadius="4dp"
+            app:isClockwise="true" />
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:padding="3dp"
+            app:lightIndex="0"
+            app:animMode="DotMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_red_light"
+            app:circleNum="8"
+            app:circleRadius="4dp"
+            app:isClockwise="true"/>
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:padding="2.5dp"
+            app:lightIndex="2"
+            app:animMode="TailMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_blue_light"
+            app:circleNum="9"
+            app:circleRadius="4dp"
+            app:isClockwise="true"/>
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:padding="3dp"
+            app:lightIndex="3"
+            app:animMode="GarbMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_blue_light"
+            app:circleNum="8"
+            app:circleRadius="4dp"
+            app:isClockwise="true"/>
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:padding="2.5dp"
+            app:lightIndex="4"
+            app:animMode="ZoomMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_green_light"
+            app:circleNum="8"
+            app:circleRadius="4dp"
+            app:isClockwise="true"/>
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:padding="2.5dp"
+            app:lightIndex="5"
+            app:animMode="ChangeMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_green_light"
+            app:circleNum="8"
+            app:circleRadius="4dp"
+            app:isClockwise="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="2.5dp"
+            app:lightIndex="1"
+            app:animMode="RotateMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_red_light"
+            app:circleNum="9"
+            app:circleRadius="4dp"
+            app:isClockwise="false"/>
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:padding="3dp"
+            app:lightIndex="0"
+            app:animMode="DotMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_red_light"
+            app:circleNum="8"
+            app:circleRadius="4dp"
+            app:isClockwise="false"/>
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:padding="2.5dp"
+            app:lightIndex="2"
+            app:animMode="TailMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_blue_light"
+            app:circleNum="9"
+            app:circleRadius="4dp"
+            app:isClockwise="false"/>
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:padding="3dp"
+            app:lightIndex="3"
+            app:animMode="GarbMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_blue_light"
+            app:circleNum="8"
+            app:circleRadius="4dp"
+            app:isClockwise="false"/>
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:padding="2.5dp"
+            app:lightIndex="4"
+            app:animMode="ZoomMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_green_light"
+            app:circleNum="8"
+            app:circleRadius="4dp"
+            app:isClockwise="false"/>
+
+        <com.biansemao.widget.AnimProgressView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:padding="2.5dp"
+            app:lightIndex="5"
+            app:animMode="ChangeMode"
+            app:animTime="200"
+            app:circleColor="@android:color/holo_green_light"
+            app:circleNum="8"
+            app:circleRadius="4dp"
+            app:isClockwise="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="开始" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="重置" />
+    </LinearLayout>
+
+</LinearLayout>
